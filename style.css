@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+* ::-webkit-scrollbar {
+  width: 3px;
+}
+
+* ::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+* ::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #aca9a9;
+}
+
+* ::-webkit-scrollbar-thumb:hover {
+  background-color: gray;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+* ::-webkit-scrollbar {
+  display: none;
+}
+
+.c-main {
+  display: flex;
+  flex-flow: column;
+  /* flex: 0 0 400%; */
+  /* flex-flow: row; */
+  height: 100%;
+  width: 100%;
+  /* justify-content: space-between; */
+
+  border: 2px solid red;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 100%;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  /* display: flex; */
+  background-color: 10px solid blue;
+  display: flex;
+  flex-flow: column;
+  background-image: url("fondo.jpg");
+
+}
+
+nav {
+  background-color: #008069;
+  color: white;
+  height: 5.5rem;
+}
+
+.nav-items {
+  display: flex;
+
+  flex-flow: row;
+
+  justify-content: space-between;
+}
+
+.nav-items button {
+  margin-left: 1rem;
+  color: white;
+  border: none;
+  background: none;
+}
+
+.miguel img {
+  object-fit: cover;
+  border-radius: 100%;
+  height: 3rem;
+  width: 3rem;
+  /* margin-right: 0.5rem; */
+}
+
+.miguel {
+  display: flex;
+}
+.separador1 {
+  display: flex;
+  flex-flow: row;
+  padding: 25px;
+}
+.separador2 {
+  display: flex;
+  flex-flow: row;
+}
+
+.chat2{
+  display: flex;
+  flex-flow:row;
+  justify-content: flex-end
+}
+.chat1{
+  display: flex;
+  flex-flow:row;
+  justify-content: flex-start;
+}
+
+.conversacion1{
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background: #e2ffc7;
+  border-radius: 1rem;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  height: auto;
+  max-width: 80%;
+  width: fit-content;
+  justify-content: space-between;
+  background: #ffffff;
+
+}
+.conversacion2{
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background: #e2ffc7;
+  border-radius: 1rem;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  height: auto;
+  max-width: 80%;
+  width: fit-content;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: rgb(245, 235, 235);
+  width: 100%;
+  height: auto;
+  /* display: flex;
+  flex-flow: row;
+  justify-content: center;
+   */
+
+  /* height: 3rem; */
+  /* z-index: 100000px; */
+  /* border: 3px solid yellow; */
+
+  /* flex-flow: column;   */
+
+  /* justify-content: space-between; */
+}
+
+#barra-texto {
+  width: 60rem;
+  height: 2rem;
+  border-radius: 7px;
+  border: none;
+  margin-top: 10px;
+}
+
+.lados {
+  justify-content:center;
+  /* justify-content: space-between; */
+  display: flex;
+  flex-flow: row;
+}
+.lado1{
+  margin: 1rem;
+}
+
+.lado2{
+  margin: 1rem;
+}
+
+/* .c-mensajes{
+  
+} */
